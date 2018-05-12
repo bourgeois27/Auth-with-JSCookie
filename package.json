@@ -1,0 +1,22 @@
+{
+  "name": "laboratoire8",
+  "version": "1.0.0",
+  "description": "Laboratoire 8 pour le cours de GLO-3102",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Sebastien Bourgeois",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}

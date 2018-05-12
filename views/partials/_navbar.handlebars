@@ -1,0 +1,32 @@
+<div class="mb-4">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Laboratoire 8</a>
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="/userprofile" class="nav-link">User profile</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      {{#if user}}
+      <li class="nav-itme">
+        <a href="/logout" class="nav-link">Logout</a>
+      </li>
+      {{else}}
+      <li class="nav-item">
+        <a class="nav-link" href="/register">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/login">Login</a>
+      </li>
+      {{/if}}
+    </ul>
+  </nav>
+</div>
