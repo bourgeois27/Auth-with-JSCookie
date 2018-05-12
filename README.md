@@ -37,4 +37,4 @@ Exécuter l'API:
 
 `npm run dev`
 
-Utiliser le `http://localhost:3000/` comme baseUrl dans postman afin de tester/corriger le laboratoire.
+Visiter le `http://localhost:3000/` avec un navigateur web.
